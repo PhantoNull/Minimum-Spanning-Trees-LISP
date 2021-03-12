@@ -48,7 +48,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 ### [ Creating and editing a graph ]
   Before any operation can be done you need to have a graph to work on.
   You can create a graph by adding arcs with function:
-```CommonLisp
+```Lisp
     (new-arc graph-name vertex1 vertex2 weight)
 ```
   vertex1 and vertex2 must be atoms. Weight must be numeric.
