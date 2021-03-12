@@ -1,5 +1,5 @@
 # Minumum Spanning Tree in Lisp
-![graph-image.jpg](graph-image.jpg?raw=true)
+![graph-title.png](graph-title.png?raw=true)
 ## Introduction
 
  A problem that often appears in various guises is connecting
