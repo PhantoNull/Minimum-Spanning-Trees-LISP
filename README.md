@@ -48,7 +48,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 ### [ Creating and editing a graph ]
   Before any operation can be done you need to have a graph to work on.
   You can create a graph by adding arcs with function:
-```Commonlisp
+```Common Lisp
     (new-arc graph-name vertex1 vertex2 weight)
 ```
   vertex1 and vertex2 must be atoms. Weight must be numeric.
@@ -59,16 +59,16 @@ This program outputs a Minimum Spanning tree for a given graph.
    and new_vertex.
   As new_arc, new_vertex will create the graph if doesn't exists.
 ```
-    CL > (new-graph graph-name)
+    (new-graph graph-name)
 
-    CL > (new-vertex graph-name vertex-name)
+    (new-vertex graph-name vertex-name)
 ```
 
 
 ### [ Printing a graph ]
   To debug a state of any graph you may print it:
 ```
-    CL > (graph-print graph-name)
+    (graph-print graph-name)
 ```
 
 
@@ -78,15 +78,15 @@ This program outputs a Minimum Spanning tree for a given graph.
    by lexicographical order for nodes on same depth.
   Source is the starting vertex of computation.
 ```
-   CL > (mst-prim graph-name source)
-        (mst-get graph-name source)
+   (mst-prim graph-name source)
+   (mst-get graph-name source)
 ```
 
 
 ### [ Memory Management ]
    When a graph is no more needed, you may delete it with function:
 ```
-   CL > (delete-graph graph-name)
+   (delete-graph graph-name)
 ```
    This will delete delete everything related to the graph in memory.
 
@@ -96,7 +96,7 @@ This program outputs a Minimum Spanning tree for a given graph.
     arc list with mst-get-nested function.
    It returns a pre-ordered list of nested arcs representing the MST.
 ```
-   CL > (mst-get-nested graph-name source)
+   (mst-get-nested graph-name source)
 ```
 
 
