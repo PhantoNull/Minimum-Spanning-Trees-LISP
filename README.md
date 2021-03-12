@@ -48,7 +48,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 ### [ Creating and editing a graph ]
   Before any operation can be done you need to have a graph to work on.
   You can create a graph by adding arcs with function:
-```CLISP
+```lisp
     (new-arc graph-name vertex1 vertex2 weight)
 ```
   vertex1 and vertex2 must be atoms. Weight must be numeric.
@@ -58,7 +58,7 @@ This program outputs a Minimum Spanning tree for a given graph.
   For more control over graphs creation you can use functions new_graph
    and new_vertex.
   As new_arc, new_vertex will create the graph if doesn't exists.
-```
+```lisp
     (new-graph graph-name)
 
     (new-vertex graph-name vertex-name)
@@ -67,7 +67,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 
 ### [ Printing a graph ]
   To debug a state of any graph you may print it:
-```
+```lisp
     (graph-print graph-name)
 ```
 
@@ -77,7 +77,7 @@ This program outputs a Minimum Spanning tree for a given graph.
    MST with radix source (vertex-name) and sorted first by weight and then
    by lexicographical order for nodes on same depth.
   Source is the starting vertex of computation.
-```
+```lisp
    (mst-prim graph-name source)
    (mst-get graph-name source)
 ```
@@ -85,7 +85,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 
 ### [ Memory Management ]
    When a graph is no more needed, you may delete it with function:
-```
+```lisp
    (delete-graph graph-name)
 ```
    This will delete delete everything related to the graph in memory.
@@ -95,7 +95,7 @@ This program outputs a Minimum Spanning tree for a given graph.
    If you want more hierarchical informations on a MST arc-list you can get the not-flattened
     arc list with mst-get-nested function.
    It returns a pre-ordered list of nested arcs representing the MST.
-```
+```lisp
    (mst-get-nested graph-name source)
 ```
 
