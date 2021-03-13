@@ -1,4 +1,4 @@
-# Minumum Spanning Tree in Lisp
+# Minumum Spanning Trees in Lisp
 ![graph-title.png](graph-title.png?raw=true)
 ## Introduction
 
