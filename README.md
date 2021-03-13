@@ -73,7 +73,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 ```
   Some graph examples are provided within graph folder.
   
-![graph-example.png](img/graph-example.png?raw=true)
+![example-graph.png](img/example-graph.png?raw=true)
 
 ### [ Printing a graph ]
   To debug a state of any graph you may print it:
