@@ -24,12 +24,13 @@
   My solution to the problem ***strives to maximize memory and time efficiency
     and at the same time fulfill API's assignment specifications***.
 
+ An example of this is the structure I built for storing arc data.
  By avoiding storing arcs in hash-tables with key *(graph-id v1 v2)* and as
   value its *Weight* I tried to find a more efficient way to store data.
 
  Arcs data in my program are stored in nested-hash-tables structures
   to drastically improve efficiency in searching operations.
- In addition to this it also avoids increasing execution times caused
+ In addition to this this choice also avoids increasing execution times caused
   by multiple graphs existing simultaneously.
 
  The downside to this implementation is that a "double" representation for
