@@ -1,5 +1,5 @@
 # Minumum Spanning Trees in Lisp
-![graph-title.png](graph-title.png?raw=true)
+![graph-title.png](img/graph-title.png?raw=true)
 ## Introduction
 
  A problem that often appears in various guises is connecting
@@ -72,7 +72,8 @@ This program outputs a Minimum Spanning tree for a given graph.
     (load "path-to/graph-name.lisp") 
 ```
   Some graph examples are provided within graph folder.
-
+  
+![graph-example.png](img/graph-example.png?raw=true)
 
 ### [ Printing a graph ]
   To debug a state of any graph you may print it:
