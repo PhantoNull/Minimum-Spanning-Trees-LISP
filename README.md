@@ -66,7 +66,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 
 
 ### [ Loading a graph ]
-  You can also load a graph by providing a lisp file (I know it's a terrible way to pass data, unfortunately a csv loading function was not requested as for ![Prolog version](https://github.com/PhantoNa/Minimum-Spanning-Tree-PROLOG))
+  You can also load a graph by providing a lisp file (I know it's a terrible way to pass data, unfortunately a csv loading function was not requested as for [Prolog version](https://github.com/PhantoNa/Minimum-Spanning-Tree-PROLOG))
 ```Lisp
     (load "path-to/graph-name.lisp") 
 ```
