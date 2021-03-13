@@ -52,13 +52,13 @@ This program outputs a Minimum Spanning tree for a given graph.
 ```Lisp
     (new-arc graph-name vertex1 vertex2 weight)
 ```
-  vertex1 and vertex2 must be atoms. Weight must be numeric.
+  `vertex1` and `vertex2` must be atoms. `weight` must be numeric.
 
   If not existent vertices and graph will be created along with arc.
   Weight is optional and will be 1 if not specified.
   For more control over graphs creation you can use functions new_graph
    and new_vertex.
-  As new_arc, new_vertex will create the graph if doesn't exists.
+  As new_arc, new_vertex will create the graph if it doesn't exists.
 ```Lisp
     (new-graph graph-name)
 
