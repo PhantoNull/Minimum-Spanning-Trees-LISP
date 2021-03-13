@@ -71,7 +71,7 @@ This program outputs a Minimum Spanning tree for a given graph.
 ```Lisp
     (load "path-to/graph-name.lisp") 
 ```
-  Some graph examples are provided within graph folder.
+  A graph file example is provided within [Graph folder](graph/).
   
 ![example-graph.png](img/example-graph.png?raw=true)
 
