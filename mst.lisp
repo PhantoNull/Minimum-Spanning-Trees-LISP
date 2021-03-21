@@ -1,7 +1,7 @@
 ; -*- mode: Lisp;-*-
 
 ;;;; mst.lips
-;;;  OA: https://github.com/PhantoNa
+;;;  OA: https://github.com/PhantoNull
 ;;;  Originally made for an university project
 
 (defparameter *graphs* (make-hash-table :test #'equal))
