@@ -111,6 +111,6 @@ This program outputs a Minimum Spanning tree for a given graph.
 
 
 ## Credits
-OA: https://github.com/PhantoNa
+OA: https://github.com/PhantoNull
 
 Originally made for an university project, feel free to use under MIT license.
