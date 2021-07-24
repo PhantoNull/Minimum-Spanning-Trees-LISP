@@ -22,7 +22,7 @@
   it ourselves)*
 
   My solution to the problem ***strives to maximize memory and time efficiency
-    and at the same time fulfill API's assignment specifications***.
+    and at the same time fulfill assignment's specifications***.
 
  An example of this is the structure I built for storing arc data.
  By avoiding storing arcs in hash-tables with key *(graph-id v1 v2)* and as
