@@ -30,7 +30,7 @@
 
  Arcs data in my program are stored in nested-hash-tables structures
   to drastically improve efficiency in searching operations.
- In addition to this this choice also avoids increasing execution times caused
+ Moreover this choice also avoids increasing execution times caused
   by multiple graphs existing simultaneously.
 
  The downside to this implementation is that a "double" representation for
